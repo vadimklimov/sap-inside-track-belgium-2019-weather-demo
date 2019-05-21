@@ -1,0 +1,40 @@
+# dotenv environment variables file
+.env
+
+# cfenv environment variables for VCAP_APPLICATION and VCAP_SERVICES files
+cf-vcap-local.json
+
+# TypeScript compiler, TSLint and ESLint configuration and settings
+tsconfig.json
+tslint.json
+.eslintrc.json
+
+# TypeScript input files and additional TypeScript types
+src/
+types/
+
+# Dependency directories
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Dependency directories
+node_modules/
+
+# TypeScript input files
+src/
+types/
+
+# Git ignore settings
+.gitignore
+
+# TypeScript compiler and ESLint configuration
+tsconfig.json
+.eslintrc.json
+
+# dotenv environment variables file
+.env
+
+# cfenv environment variables for VCAP_APPLICATION and VCAP_SERVICES files
+cf-vcap-local.json

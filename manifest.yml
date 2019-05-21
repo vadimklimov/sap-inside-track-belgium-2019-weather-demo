@@ -1,0 +1,13 @@
+---
+applications:
+- name: weather-demo
+  buildpacks:
+  - nodejs_buildpack
+  # command: npm start
+  command: npm run inspect
+  memory: 256MB
+  disk_quota: 256MB
+  env:
+    NODE_ENV: development
+    OWM_URL: https://api.openweathermap.org/data/2.5/weather
+    OWM_APP_ID: # OpenWeatherMap API key

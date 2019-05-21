@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch locally",
+            "program": "${workspaceFolder}/dist/app.js",
+            "envFile": "${workspaceFolder}/.env"
+            // "trace": "verbose"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch locally on V8 engine using NVS",
+            "program": "${workspaceFolder}/dist/app.js",
+            "windows": {
+                "runtimeExecutable": "nvs.cmd"
+            },
+            "runtimeArgs": [
+                "node/11"
+            ],
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "node-chakracore-time-travel-debugger",
+            "request": "launch",
+            "name": "Launch locally on ChakraCore engine",
+            "program": "${workspaceFolder}/dist/app.js",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to SCP CF through SSH tunnel",
+            "port": 9229,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "/home/vcap/app" // /app
+            // "trace": "verbose"
+        }
+    ]
+}
