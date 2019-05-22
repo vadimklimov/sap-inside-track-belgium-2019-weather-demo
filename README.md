@@ -7,10 +7,10 @@ Session recap is provided in SAP Community blog series:
 
 |Blogs|
 |---|
-|[Part 1: Remote Debugging - Environment Preparation and General Techniques](https://blogs.sap.com/2019/05/20/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-1-remote-debugging-environment-preparation-and-general-techniques)|
-|[Part 2: Remote Debugging in Production Environment](https://blogs.sap.com/2019/05/20/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-2-remote-debugging-in-production-environment)|
-|[Part 3: Accessing Service Instance](https://blogs.sap.com/2019/05/20/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-3-accessing-service-instance)|
-|[Part 4: Time Travel Debugging](https://blogs.sap.com/2019/05/20/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-4-time-travel-debugging)|
+|[Part 1: Remote Debugging - Environment Preparation and General Techniques](https://blogs.sap.com/2019/05/22/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-1-remote-debugging-environment-preparation-and-general-techniques/)|
+|[Part 2: Remote Debugging in Production Environment](https://blogs.sap.com/2019/05/22/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-2-remote-debugging-in-production-environment/)|
+|[Part 3: Accessing Service Instance](https://blogs.sap.com/2019/05/22/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-3-accessing-service-instance/)|
+|[Part 4: Time Travel Debugging](https://blogs.sap.com/2019/05/22/sit-belgium-2019-recap-debugging-node.js-applications-in-scp-cf.-part-4-time-travel-debugging/)|
 
 ## Notes
 A valid OpenWeatherMap API key shall be obtained and maintained in an environment variable *OWM_APP_ID* before running the application.
