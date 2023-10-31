@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has been archived and is no longer maintained.
+
 # Troubleshooting Node.js applications: Debugging in SAP Cloud Platform Cloud Foundry
 ## Overview
 
